@@ -41,7 +41,7 @@ window.onload = ()=>{
             answer.classList.add("text-red-400")
             answer.innerHTML = 'you are not converting to another scale';
         }
-        else if(!(degree > 1)){
+        else if(!(degree > 0)){
             answer.classList.add("text-red-400")
             answer.innerHTML = "no degree to convert has been added";
         }
